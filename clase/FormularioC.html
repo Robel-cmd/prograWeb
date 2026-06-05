@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="EstiloC.css">
+</head>
+<body>
+
+    <div class="contenedor-formulario">
+        <h2>Formulario de contacto</h2>
+        <form action="#">
+            <table>
+                <tr>
+                    <td class="etiqueta"><label for="nombre">Nombre Completo</label></td>
+                    <td><input type="text" id="nombre" name="nombre" required></td>
+                </tr>
+
+                <tr>
+                    <td class="etiqueta"><label for="correo">Correo electrónico</label></td>
+                    <td><input type="email" id="correo" name="correo" required></td>
+                </tr>
+
+                <tr>
+                    <td class="etiqueta">Género</td>
+                    <td>
+                        <div class="opciones-grupo">
+                            <label class="opcion-item"><input type="radio" name="genero" value="m">Masculino</label>
+                            <label class="opcion-item"><input type="radio" name="genero" value="f">Femenino</label>
+                            <label class="opcion-item"><input type="radio" name="genero" value="o">Otro</label>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="etiqueta">Intereses</td>
+                    <td>
+                        <div class="opciones-grupo">
+                            <label class="opcion-item"><input type="checkbox" name="interes" value="web">Desarrollo Web</label>
+                            <label class="opcion-item"><input type="checkbox" name="interes" value="diseno">Diseño IU/UX</label>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="etiqueta">
+                        <div  class="opciones-grupo">
+                        <label class="opcion-item">Tipo de trámite</label>
+                    </div>
+                    </td>
+
+                    <td class="etiqueta">
+                         <select name="tipo" id="tipo">
+                            <option value="licencia"> Licencia de Operación </option>
+                            <option value="permiso">Permiso de construcción</option>
+                            <option value="queja">Sugerencia / Queja</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="etiqueta"><label for="mensaje">Mensaje:</label></td>
+                    <td><textarea name="mensaje" id="mensaje" placeholder="Escribe aquí tus consultas..."></textarea></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><button type="submit" class="boton-envio">Enviar Formulario</button></td>
+                </tr>
+
+            </table>
+        <table>
+
+        </table>
+
+        </form>
+        
+    </div>
+    
+</body>
+</html>

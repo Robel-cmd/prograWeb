@@ -1,0 +1,29 @@
+.header {
+    border : 2px solid black;
+
+    border-radius: 5px;
+}
+
+.div_btn{
+    display: flex;
+    justify-content: rightcfndfhfd;
+}
+.btn_login {
+    background-color: aqua;
+    width: 16%;
+
+}
+
+.btn_singin {
+    background-color: aqua;
+    width: 16%;
+
+}
+.bienvenido {
+    font-size: 20px;
+    text-align: center;
+    color: aqua;
+}
+.body {
+    background-color: rgb(75, 69, 69);
+}
