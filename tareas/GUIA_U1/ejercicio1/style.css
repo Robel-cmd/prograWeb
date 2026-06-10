@@ -1,9 +1,67 @@
 body {
+    background-color: #2196f3;
     display: flex;
     justify-content: center;
-    align-items: center;
+
+}
+
+section h1{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #0063b4;
+}
+
+.registro {
+    display: block;
+    width: 30%;
+    height: 490px;
+    padding: 5%;
+    background-color: #f8f276 ;
+    border-radius: 2%;
+    border-color: black;
+   
+}
+
+.registro_form {
+    display: block
+
 }
 
 input, label{
-    position: static;
+    width: 90%;
+    display: block;
+    margin: 10px 0  10px 0;
+}
+
+label{
+    font-size: 20px;
+    color: #0063b4;
+}
+
+input{
+    height: 30px;
+    border-radius: 7px;
+    background-color: #2ad087;
+}
+
+/* modificar el texto por defecto dentro del input */
+input::placeholder {
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.button_crear{
+    width: 91%;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #4aacff;
+    margin-top: 20px;
+}
+
+/* animacion cuando se presiona */
+.button_crear:active{
+    background-color:f8f276;
+    transform: scale(0.95);
+    transition: 0.3s;
+
 }

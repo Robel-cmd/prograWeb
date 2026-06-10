@@ -9,19 +9,25 @@
 </head>
 <body>
     <section class="registro">
-        <h1 class="title">REGISTRO DE USUARIOS</h1>
-        <form action="">
+        <h1 class="title">REGISTRAR USUARIO</h1>
+        <form class="registro_form">
             <div>
                 <label for="nombre">Nombre Completo: </label>
-                <input type="text" placeholder="Ej. Juan Perez" class="in_name">
+                <input type="text" placeholder="Ej. Juan Perez" class="in_name" required>
             </div>
-                <label for="correo">Coreo Electronico</label>
-                <input type="email" placeholder="Ej. usuario@dominio.tld" class="in_email">
             <div>
-                <label for="contrasena" class="lebel_pwd">Contraseña</label>
-                <input type="password" class="in_pwd">
-                <label for="contrasena" class="lebel_pwd">Confirmar Contraseña</label>
-                <input type="password"class="in_pwd">
+                <label for="correo">Coreo Electronico: </label>
+                <input type="email" placeholder="Ej. usuario@dominio.tld" class="in_email" required>
+            </div>
+            
+            <div>
+                <label for="contrasena" class="lebel_pwd">Contraseña: </label>
+                <input type="password" class="in_pwd" required>
+            </div>
+
+            <div>
+                <label for="contrasena" class="lebel_pwd">Confirmar Contraseña: </label>
+                <input type="password"class="in_pwd" required>
             </div>
             <button class="button_crear">CREAR CUENTA</button>
         </form>

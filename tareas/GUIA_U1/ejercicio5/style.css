@@ -1,0 +1,67 @@
+body {
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    width: 50%;
+    height: 95vh;
+    background-color: rgb(243, 187, 119);
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+
+#perfil{
+    display:flex;
+    justify-content: center; 
+    align-items: center;  
+    width: 110px;
+    height: 150;  
+    margin-bottom: 30px;
+    background-color: gainsboro;
+    border: solid rgb(90, 90, 219) 3px;
+    border-radius: 10px;
+}
+
+div img {
+    width: 100px;
+    height: 140px;
+    
+}
+
+.campo_l{
+    height: 200px;
+    background-color:floralwhite;
+    border: solid rgb(90, 90, 219) 3px;
+    border-radius: 5px;
+    padding: 0;
+    font-size: 20px;
+    margin: 10px;
+    
+
+}
+.campo_i{
+    height: 20px;
+    background-color:floralwhite;
+    border: solid rgb(0, 0, 0) 3px;
+    border-radius: 5px;
+    padding: 0;
+    font-size: 14px;
+    margin: 10px;
+
+
+}
